@@ -17,3 +17,9 @@ html {
     --color4 : rgba(248,248,248,1.0);
     --color5 : rgb(255, 241, 242);
 }
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 9px;
+    }
+}

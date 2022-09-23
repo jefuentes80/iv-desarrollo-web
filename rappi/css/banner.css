@@ -60,3 +60,18 @@
     align-items: center;
 
 }
+
+
+@media only screen and (min-width: 1200px) {
+    .banner {
+        width: 80%;
+        margin: auto;
+    }
+    .banner .contenido_banner {
+        padding: 10rem;
+    }
+    .boton {
+        margin-left: 1px;
+        margin-top: 8rem;
+    }
+}

@@ -79,3 +79,32 @@
     align-items: center;
     justify-content: center;
 }
+
+
+@media only screen and (min-width: 1200px) {
+    .About-Rappi {
+        width: 80%;
+        margin: auto;
+
+        display: flex;
+    }
+    .About-Rappi .titulo {
+        width: 40%;
+    }
+    .contenido{
+        width: 60%;
+    }
+    .botones {
+        width: 100%;
+        margin-top: 10rem;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .botones .bt1 {
+        margin-top: 0;
+    }
+    .botones .bt2 {
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+}
